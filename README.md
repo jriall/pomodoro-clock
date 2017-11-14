@@ -1,10 +1,16 @@
-# The Project
+# Pomodoro Clock
+
+http://jamesriall.co.uk/pomodoro-clock/
+
+## The Project
 
 The Pomodoro technique is a time management method which breaks down work into active intervals separated by short breaks. Typically work intervals are around 25 minutes. The theory is that this method of breaking down work time aids in uninterrupted periods of concentration allowing for greater productivity levels.
 
 This webapp aids the user in setting their pomodoro intervals. Users can change the duration of the work and break intervals, start, pause and reset the session. The main display shows a countdown of time remaining in the current interval, indicates whether it is a work or break interval and plays a sound when the interval is completed.
 
-# The Logic
+http://res.cloudinary.com/jamesriall/image/upload/v1468996485/clock_mock_up_vfx2jd.png
+
+## The Logic
 
 Firstly I initialise functions to convert raw milliseconds into minutes and seconds for display (including leading zeros so that we always have a minimum of 2 digit seconds and numbers). We then set the click handers for increasing and decreasing the session lengths, ensuring this is only possible when the clock is inactive. The timer is updated to reflect the changes in session length
 
