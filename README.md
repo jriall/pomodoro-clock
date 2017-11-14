@@ -8,7 +8,7 @@ The Pomodoro technique is a time management method which breaks down work into a
 
 This webapp aids the user in setting their pomodoro intervals. Users can change the duration of the work and break intervals, start, pause and reset the session. The main display shows a countdown of time remaining in the current interval, indicates whether it is a work or break interval and plays a sound when the interval is completed.
 
-http://res.cloudinary.com/jamesriall/image/upload/v1468996485/clock_mock_up_vfx2jd.png
+![ScreenShot](http://res.cloudinary.com/jamesriall/image/upload/v1468996485/clock_mock_up_vfx2jd.png)
 
 ## The Logic
 
