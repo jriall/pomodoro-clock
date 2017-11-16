@@ -49,8 +49,11 @@ h3 {
 
 #circle span {
   display: inline-block;
-  height: 400px;
   zoom: 0.25;
+}
+
+.time-display {
+  margin-top: 100px;
 }
 
 .plus-minus-button {
@@ -73,7 +76,7 @@ h3 {
     width: 300px;
     height: 300px;
   }
-  #circle span {
-    height: 200px;
+  .time-display {
+    margin-top: 50px;
   }
 }
