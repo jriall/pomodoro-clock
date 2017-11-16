@@ -6,7 +6,7 @@ body {
 
 h1 {
   font-family: Lobster;
-  font-size: 70px;
+  font-size: 50px;
   text-align: center;
 }
 
@@ -40,16 +40,16 @@ h3 {
   border-radius: 50%;
   color: black;
   cursor: pointer;
-  height: 450px;
+  height: 400px;
   margin: 0 auto;
   margin-top: 25px;
   text-align: center;
-  width: 450px;
+  width: 400px;
 }
 
 #circle span {
   display: inline-block;
-  height: 450px;
+  height: 400px;
   zoom: 0.25;
 }
 
@@ -66,4 +66,14 @@ h3 {
   height: 80px;
   margin: 20px;
   width: 80px;
+}
+
+@media screen and (max-width: 420px) {
+  #circle {
+    width: 300px;
+    height: 300px;
+  }
+  #circle span {
+    height: 200px;
+  }
 }
